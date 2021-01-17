@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\YouTubeDevSeries\\JwtAuthenticationWebAPI\\JwtAuthenticationWebAPI\\JwtAuthenticationWebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\YouTubeDevSeries\\JwtAuthenticationWebAPI\\JwtAuthenticationWebAPI\\JwtAuthenticationWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\YouTubeDevSeries\\JwtAuthenticationWebAPI\\JwtAuthenticationWebAPI\\JwtAuthenticationWebAPI.csproj",
+        "projectName": "JwtAuthenticationWebAPI",
+        "projectPath": "C:\\Dev\\YouTubeDevSeries\\JwtAuthenticationWebAPI\\JwtAuthenticationWebAPI\\JwtAuthenticationWebAPI.csproj",
+        "packagesPath": "C:\\Users\\GD0024\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\YouTubeDevSeries\\JwtAuthenticationWebAPI\\JwtAuthenticationWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GD0024\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
